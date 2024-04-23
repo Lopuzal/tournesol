@@ -122,7 +122,7 @@ export class TournesolRecommendations {
     }
   }
 
-  loadRecommandations() {
+  loadRecommendations() {
     if (this.areRecommendationsLoading) return;
 
     this.areRecommendationsLoading = true;
@@ -147,7 +147,7 @@ export class TournesolRecommendations {
       // If the content script is loaded on a non-root URL the recommendations
       // are not loaded. So if the user then goes to the root URL and the content
       // script is not reloaded, we need to load the recommendations.
-      this.loadRecommandations();
+      this.loadRecommendations();
     }
   }
 

@@ -8,14 +8,14 @@ export class TournesolSearchRecommendations extends TournesolRecommendations {
 
   process() {
     this.isPageLoaded = true;
-    this.loadRecommandations();
+    this.loadRecommendations();
   }
 
   displayRecommendations(nthchild = 0) {
     super.displayRecommendations(nthchild);
   }
 
-  loadRecommandations() {
+  loadRecommendations() {
     if (this.areRecommendationsLoading) return;
 
     this.areRecommendationsLoading = true;

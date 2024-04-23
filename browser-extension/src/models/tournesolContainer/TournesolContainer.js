@@ -160,7 +160,7 @@ export class TournesolContainer {
     refreshButton.className = 'tournesol_simple_button';
     refreshButton.onclick = () => {
       refreshButton.disabled = true;
-      this.recommendations.loadRecommandations();
+      this.recommendations.loadRecommendations();
     };
     topActionBar.append(refreshButton);
 
